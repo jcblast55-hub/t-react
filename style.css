@@ -4,6 +4,8 @@
     margin: 0 auto;
     padding: 10px 20px;
     align-items: center;
+    margin:auto 0;
+    max-width: 1200px;
 }
 
 .row {
@@ -38,6 +40,9 @@
     font-size: 11px;
     margin: 0 20px 0 0;
     font-weight: bold;
+    margin-right: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .navbar__menu a {
@@ -78,6 +83,8 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 .description {
@@ -100,7 +107,7 @@ span {
 }
 
 .image1 {
-    width: 100%;
+    width: 345px;
     height: auto;
     color: rgb(181, 173, 173);
 }
@@ -116,7 +123,43 @@ span {
     padding-top: 30px;
 }
 
+.section2-container {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
+.section2-features{
+    font-size: 11px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(135, 116, 188);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section2-title {
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.section2-description {
+    font-size: 11px;
+    font-weight: 400;
+    color: rgba(54, 52, 52, 0.392);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
 
 
 
