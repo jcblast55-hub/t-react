@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-react</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <section id="landing">
+        <nav>
+            <div class="row nav__row">
+                <div class="nav__logo">
+                    <img src="assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="" class="logo">
+                </div>
+                    <span class="logo-text">Treact</span>
+                <button class="btn__menu" onclick="openMenu()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="btn__menu--svg">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+        <div class="modal">
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="light___StyledCloseIcon-lj69nl-14 fASujC">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            <div class="modal__links">
+                <a class="modal__link">About</a>
+                <a class="modal__link">Blog</a>
+                <a class="modal__link">Pricing</a>
+                <a class="modal__link">Contact Us</a>
+                <a class="modal__link">Login</a>
+                <a class="modal__link modal__link--primary">Sign Up</a>
+            </div>
+        </div>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="container1">
+                        <h1 class="title">Beautiful React Templates <span>for you</span></h1>
+                        <p class="description">Our templates are easy to setup, understand and customize. Fully modular component with a variety of pages and components. </p>
+                        <div class="form-container">
+                        <form action="your-server-endpoint" method="post">
+                        <label for="email">Email:</label>
+                        <input type="email" placeholder="Your E-mail Address" required>
+                        <input type="submit" value="get started" class="btn btn-primary">
+                        </form>
+                        <p class="p">OUR TRUSTED CUSTOMERS</p>
+                        <img src="assets/customers-logo-strip.680ac7c2e8ae28161d2c.png" alt="image1" class="image1">
+                    </div>
+                </div>
+                    <div class="container2">
+                        <img src="assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" alt="image2" class="image2">
+                    </div>
+                </div>
+            </div>
+        </header>
+    </section>
+    <main>
+        <section id="features">
+            <div class="container">
+                <div class="row__narrow">
+                    <element class="section2-container">
+            <p class="section2-features">FEATURES</p>
+            <h2 class="section2-title">We have Amazing <span>Services</span></h2>
+            <p class="section2-description">Fully modular component with a variety of pages and components.Our templates are easy to setup, understand and customize. Fully modular component with a variety of pages and components. </p>
+        </element>
+        <div class="section2-cards">
+            <div class="card">
+                <img src="assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" alt="icon1" class="card-icon">
+                <h3 class="card-title">Secure</h3>
+                <p class="card-description">Our templates are easy to setup, understand and customize. Fully modular component with a variety of pages and components. </p>
+            </div>
+            <div class="card">
+                <img src="assets/support-icon.f9253ffa8cb6ffde5bbaa05eb5136375.svg" alt="icon2" class="card-icon">
+                <h3 class="card-title">24/7 Support</h3>
+                <p class="card-description">Our templates are easy to setup, understand and customize. Fully modular component with a variety of pages and components. </p>
+            </div>
+            <div class="card">
+                <img src="assets/customize-icon.367468c90fd796009b97fbfba67b2c6a.svg" alt="icon3" class="card-icon">
+                <h3 class="card-title">Customizable</h3>
+                <p class="card-description">Our templates are easy to setup, understand and customize. Fully modular component with a variety of pages and components. </p>
+            </div>
+            <div class="card">
+            <img src="assets/reliable-icon.1367510a8f0a1bec76dc425d25f92f43.svg" alt="icon4" class="card-icon">
+                <h3 class="card-title">Reliable</h3>
+                <p class="card-description">Our templates are easy to setup, understand and customize. Fully modular component with a variety of pages and components. </p>
+            </div>
+            <div class="card">
+                <img src="assets/fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg" alt="icon5" class="card-icon">
+                <h3 class="card-title">fast</h3>
+                <p class="card-description">Our templates are easy to setup, understand and customize. Fully modular component with a variety of pages and components. </p>
+            </div>
+            <div class="card">
+                <img src="assets/simple-icon.673b7e1750b2a4ef32907fc164828d00.svg" alt="icon6" class="card-icon">
+                <h3 class="card-title">easy</h3>
+                <p class="card-description">Our templates are easy to setup, understand and customize. Fully modular component with a variety of pages and components. </p>
+            </div>
+        </div>
+                </div>
+            </div>
+        </section>
+        <section id="quality">
+            <div class="container">
+                <div class="row">
+                            <div class="section3-container">
+            <p class="section3-qualitywork">QUALITY WORK</p>
+            <h2 class="section3-title">Designed & Developed by <span>Professionals</span></h2>
+            <p class="section3-description">Our templates are easy to setup, understand and customize. Fully modular component with a variety of pages and components.Our templates are easy to setup, understand and customize. Fully modular component with a variety of pages and components. </p>
+            <button class="btn btn-primary">Learn More</button>
+        </div>
+        <div class="section3-image-container">
+            <img src="assets/hero-screenshot-1.40a097b525c2f8c9808e.png" alt="image3" class="section3-image">
+        </div>
+                </div>
+            </div>
+        </section>
+        <section id="steps">
+            <div class="container">
+                <div class="row">
+                            <div class="section4-image-container">
+            <img src="assets/hero-screenshot-2.241aac1fbc66db29d873.png" alt="image4" class="section4-image">
+        </div>
+        <div class="section4-container">
+            <p class="section4-step5">STEP5</p>
+            <h2 class="section4-title">Easy to <span>Get Started</span></h2>
+            <ul class="section4-list">
+                <li class="section4-number">01</li><li class="section4-number_title">Register</li><li class="section4-number_description">Create an account with us using google or facebook</li>
+                <li class="section4-number">02</li><li class="section4-number_title">Download</li><li class="section4-number_description">Browse and download the template that you like from the marketplace</li>
+                <li class="section4-number">03</li><li class="section4-number_title">Run</li><li class="section4-number_description">Follow the instructions to setup and customize the template to your needs</li>
+            </ul>
+        </div>
+                </div>
+            </div>
+        </section>
+        <section id="values">
+            <div class="container">
+                <div class="row">
+                    
+                </div>
+            </div>
+        </section>
+        <section id="pricing">
+            <div class="container">
+                <div class="row">
+                    <div class="plan plan--highlighted">
+                        <h2 class="plan__title">Personal</h2>
+                        <p class="plan__price">$17.99<span class="plan__price-special">/month</span></p>
+
+                        <ul class="plan__features">
+                        <li class="plan__feature">For individuals</li>
+                        <li class="plan__feature">30 Templates</li>
+                        <li class="plan__feature">7 Landing Pages</li>
+                        <li class="plan__feature">12 internal pages</li>
+                        <li class="plan__feature">Basic Assistance</li>
+                        </ul>
+                        <button class="plan__button">Buy Now</button>
+                        </div>
+                        <div class="plan plan--highlighted_2">
+                        <h2 class="plan__title">Business</h2>
+                        <p class="plan__price">$37.99<span class="plan__price-special">/month</span></p>
+
+                        <ul class="plan__features_2">
+                        <li class="plan__feature_2">For small businesses</li>
+                        <li class="plan__feature_2">60 Templates</li>
+                        <li class="plan__feature_2">15 Landing Pages</li>
+                        <li class="plan__feature_2">22 internal pages</li>
+                        <li class="plan__feature_2">Priority Assistance</li>
+                        </ul>
+                        <button class="plan__button_2">Buy Now</button>
+                        </div>
+                        <div class="plan plan--highlighted_2">
+                        <h2 class="plan__title">Enterprise</h2>
+                        <p class="plan__price">$57.99<span class="plan__price-special">/month</span></p>
+
+                        <ul class="plan__features_2">
+                        <li class="plan__feature_2">For large enterprises</li>
+                        <li class="plan__feature_2">90 Templates</li>
+                        <li class="plan__feature_2">27 Landing Pages</li>
+                        <li class="plan__feature_2">37 internal pages</li>
+                        <li class="plan__feature_2">Personal Assistance</li>
+                        </ul>
+                        <button class="plan__button_2">Buy Now</button>
+                    </div>         
+                </div>
+            </div>
+        </section>
+        <section id="testimonials">
+            <div class="container">
+                <div class="row">
+
+                </div>
+            </div>
+        </section>
+        <section id="start">
+            <div class="container">
+                <div class="row">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="row footer__row">
+            <div class="footer-links">
+            <a href="#"><b>MAIN</b></a>
+            <a href="#">Blog</a>
+            <a href="#">FAQS</a>
+            <a href="#">Support</a>
+            <a href="#">About Us</a>
+            </div>
+            <div class="footer-links">
+            <a href="#">PRODUCT</a>
+            <a href="#">Log in</a>
+            <a href="#">Personal</a>
+            <a href="#">Business</a>
+            <a href="#">Team</a>
+            </div>
+            <div class="footer-links">
+            <a href="#">PRESS</a>
+            <a href="#">logos</a>
+            <a href="#">Events</a>
+            <a href="#">Stories</a>
+            <a href="#">Office</a>
+            </div>
+            <div class="footer-links">
+            <a href="#">TEAM</a>
+            <a href="#">Careers</a>
+            <a href="#">Founders</a>
+            <a href="#">Culture</a>
+            <a href="#">onboarding</a>
+            </div>
+            <div class="footer-links">
+            <a href="#">LEGAL</a>
+            <a href="#">GDPR</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Disclaimer</a>
+            </div>
+            <p class="footer-text">© 2018 Treact. All rights reserved.</p>
+        </div>
+        </div>
+    </footer>
+</body>
+
+</html>
