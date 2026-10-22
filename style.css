@@ -163,8 +163,9 @@ span {
 }
 
 .image2 {
-    width: 600px;
+    width: 100%;
     height: auto;
+    max-width: 600px;
 }
 
 .p {
@@ -342,7 +343,7 @@ p.quality__description {
     border-radius: 4px;
 }
 
-section3-image {
+.section3-image {
     display: block;
     width: 100%;
     max-width: 520px;
@@ -1163,8 +1164,8 @@ h1 span {
     isolation: isolate;
     overflow: hidden;
     border-radius: 8px;
-    background: linear-gradient(  115deg,  #3048e8  #2444e9 55%,#1835ce );
-    background-color: #5883bf;
+    box-sizing: border-box;
+    background: linear-gradient(115deg, #3048e8, #2444e9 55%, #1835ce); 
 }
 
 .cta-section::before,
@@ -1547,4 +1548,11 @@ h1 span {
     main {
         margin-bottom: 80px;
     }
+}
+
+@media (max-width: 768px) {
+    .navbar__menu { display: none; }
+    .parent-container { flex-direction: column; }
+    .container1, .container2 { width: 100%; }
+    .card { width: 100%; }
 }
