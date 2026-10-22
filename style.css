@@ -227,9 +227,9 @@ span {
     
 .card-icon {
     justify-content: center;
-    width: 55px;
-    height: 55px;
-    padding: 15px;
+    width: 25px;
+    height: 25px;
+    padding: 20px;
     margin: 0 auto;
     border: .15px solid rgb(179, 162, 162);
     border-radius: 50%;
@@ -498,7 +498,7 @@ p.quality__description {
     max-width: 540px;
 }
 
-.values-label {
+.values-step {
     margin: 0 0 20px;
     color: #6415ff;
     font-size: 14px;
